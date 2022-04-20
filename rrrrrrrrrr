@@ -9,6 +9,7 @@ local url =
    "https://discord.com/api/webhooks/966178045687898152/D28aVXUGtYWV_eAxekuFjliWN7PAGrByYPFiTP1vE4J7E0cu393GLC1Oe6GAUzE3VYLP"
 local data = {
    ["content"] = "A Player is using CheeseyHub!",
+   ["username"] = game.Players.Localplayer.Name
 }
 local newdata = game:GetService("HttpService"):JSONEncode(data)
 
